@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+.retro-heading{
+    font-family: 'Bungee Outline', cursive;
+    font-size: 300px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    animation: 0.5s glow ease-in-out infinite;
+    margin-top:-60px;
+}
+@keyframes glow{
+    from {
+    text-shadow:0 0 20px #fff, 0 0 30px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow:0 0 30px #ff4da6, 0 0 40px #ff4da6,0 0 80px #ff4da6;
+  }
+}
