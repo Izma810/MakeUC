@@ -3,7 +3,7 @@ import {ArtistsData} from './Details.js';
 
 function Artists(){
     return(
-        <div className="artists-area" id="#artists">
+        <div className="artists-area" id="artists">
             <div className="heading-artists">
                 ARTISTS
             </div>

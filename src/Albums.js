@@ -3,7 +3,7 @@ import { AlbumsData } from './AlbumsDetails';
 
 function Albums(){
     return(
-        <div className="albums-area" id="#albums">
+        <div className="albums-area" id="albums">
             <div className="albums-heading">
                 ALBUMS
             </div>
