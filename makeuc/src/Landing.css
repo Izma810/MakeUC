@@ -17,3 +17,8 @@
     text-shadow:0 0 30px #ff4da6, 0 0 40px #ff4da6,0 0 80px #ff4da6;
   }
 }
+@media (max-width:991px){
+  .retro-heading{
+    font-size:100px;
+  }
+}

@@ -2,8 +2,8 @@ html{
   scroll-behavior: smooth;
 }
 body {
-    background-image: url(https://media.discordapp.net/attachments/894504214527614996/896277930211155989/5046024.png?width=1526&height=859);
-    background-size: 100%;
+    background-image: url(https://media.discordapp.net/attachments/894504214527614996/896277930211155989/5046024.png?width=840&height=473);
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -21,4 +21,10 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: palevioletred; 
+}
+@media (max-width:500px){
+  body{
+    background-size:100%;
+    height:100%;
+  }
 }

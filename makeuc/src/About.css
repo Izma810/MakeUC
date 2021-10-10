@@ -25,3 +25,8 @@ p{
     text-align: center;
     color: white;
 }
+@media (max-width:991px){
+    .about{
+        margin-top:0;
+    }
+}
