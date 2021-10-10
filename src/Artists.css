@@ -20,6 +20,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+    height:70vh;
     margin: 20px;
     border-radius: 15px;
     box-shadow: 0 0 10px #fff, 0 0 20px #0d2534;
@@ -34,6 +35,12 @@ h3, p{
     text-align: center;
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+h3{
+    letter-spacing: 1px;
+}
+p{
+    font-weight: 400;
 }
 img{
     width:100%;
